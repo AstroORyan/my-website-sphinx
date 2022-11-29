@@ -63,7 +63,6 @@ Contact
    :maxdepth: 2
    :caption: Contents:
 
-   cv
    projects
    internships
    teaching
