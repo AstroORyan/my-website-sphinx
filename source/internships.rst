@@ -23,8 +23,8 @@ finding 2,109. A significant improvement, but still short of samples we could ca
 
 In this project, my aim was to create an interacting galaxy catalogue significantly larger than those found previously. We would use machine learning algorithms to do this, but with two unique approaches which would increase our chances of success.
 The first was to use a new advanced convolutional neural network (CNN) called `Zoobot <https://zoobot.readthedocs.io/en/latest/>`_ created by `Mike Walmsley <https://research.manchester.ac.uk/en/persons/michael.walmsley>`_. This CNN has the advantage over previous models 
-as it utilises `representation learning <https://en.wikipedia.org/wiki/Feature_learning>`_ to increase the accuracy of its outputs. We also used a new platform: `ESA Datalabs <https://datalabs.esa.int/>`_. This platform allows us to directly mount space telescope data repositories (in this case, the `Hubble Legacy 
-Archive <https://hla.stsci.edu/>`_) and use it as if it were full of local files. This removed the computationally costly step of having to get all 9,507 observation files that we wanted to investigate.
+as it utilises `representation learning <https://en.wikipedia.org/wiki/Feature_learning>`_ to increase the accuracy of its outputs. We also used a new platform: `ESA Datalabs <https://datalabs.esa.int/>`_. This platform allows us to directly mount space telescope data 
+repositories (in this case, the `Hubble Legacy Archive <https://hla.stsci.edu/>`_) and use it as if it were full of local files. This removed the computationally costly step of having to get all 9,507 observation files that we wanted to investigate.
 
 Using these two tools to our advantage, I scanned the entire Hubble Archives looking for interacting galaxies. In the end, we identified 21,926 confidently classified interacting galaxies. These results are written up and have been submitted to the
 `Astrophysical Journal <https://iopscience.iop.org/journal/0004-637X>`_. A copy of the submitted paper can be found on GoogleDrive at this `link <https://drive.google.com/drive/folders/1mZaPOUmwpR_NbUydMHhimp55wSU3fgNg?usp=sharing>`_.
@@ -101,3 +101,11 @@ Modelling Bar Formation in the Core of the Milky Way
 | Location: `Nicolas Copernicus Astronomical Centre <https://www.camk.edu.pl/>`_
 | Supervisor: `Ewa Lokas <http://users.camk.edu.pl/lokas/>`_
 | Dates: 4\ :sup:`th` Jul 2016 - 12\ :sup:`th` Aug 2016
+
+The existence of central bar in the Milky Way is now an accepted in astronomy. However, back during this project it was not such an obvious fact. A large scale, hydrodynamical simulation of the Milky Way in isolation had been run, where a bar formed through natural
+processes. This was a very idealised scenario. As stipulated in LCDM, galaxies form hierarchically, so therefore assuming the Milky Way had been in isolation throughout history is unlikely. These simulations are still useful, however, to study bar evolution through
+cosmic time. 
+
+My task was to take the outputs of 50 snapshots during the idealised simulation, and to measure the bar parameters at each timestep, and plot its evolution. Following this, I attempted to model how this bar would look in the night sky from the Suns position within the 
+Milky Way. We then aimed to qualitatively compare the resultant mass distribution from this position to that in the physical night sky. Upon doing this, we found significant mismatch between the simulated mass distribution in the sky and the observed one. As stated before,
+this idealised scenario would have made it unlikely that any match could be found. 
